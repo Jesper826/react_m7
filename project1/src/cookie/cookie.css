@@ -1,0 +1,47 @@
+.Cookie {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	max-width: 420px;
+	padding: 20px;
+	margin: 12px auto;
+	background-color: #faf7f2;
+	border: 1px solid #e4ddcf;
+	border-radius: 10px;
+}
+
+.Cookie h1 {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+.Cookie p {
+	margin: 0;
+}
+
+.Cookie label {
+	font-weight: 600;
+}
+
+.Cookie button {
+	width: fit-content;
+	padding: 8px 12px;
+	border-radius: 6px;
+	border: 1px solid #c8c1b1;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.cookie-button {
+	font-weight: 600;
+	background-color: #f6ead2;
+}
+
+.upgrade {
+	background-color: #efe7d7;
+}
+
+.upgrade:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}

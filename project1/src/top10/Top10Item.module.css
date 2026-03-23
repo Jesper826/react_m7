@@ -1,0 +1,35 @@
+.book {
+    display: flex;
+    gap: 16px;
+    padding: 12px;
+    background-color: #f7f9fb;
+    border: 1px solid #d9dee5;
+    border-radius: 6px;
+}
+
+.bookNumber {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.bookContainer {
+    flex: 1;
+}
+
+.bookTitle {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+}
+
+.bookAuthor {
+    margin: 0;
+    font-size: 14px;
+    color: #4b5563;
+}

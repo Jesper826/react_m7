@@ -1,0 +1,29 @@
+.about-me {
+  margin: 24px auto;
+  padding: 24px;
+  max-width: 900px;
+  background-color: #f7f3ec;
+  border-radius: 12px;
+}
+
+.about-me__title {
+  margin-bottom: 16px;
+}
+
+.about-me__layout {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-me__text {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.about-me__image {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+.top10 {
+	max-width: 900px;
+	width: min(90%, 900px);
+	margin: 0 auto;
+	padding: 24px;
+	background-color: #ffffff;
+	border: 1px solid #d9dee5;
+	border-radius: 12px;
+}
+
+.top10 h2 {
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

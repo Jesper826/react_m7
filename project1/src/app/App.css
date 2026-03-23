@@ -1,0 +1,33 @@
+article {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 720px;
+	width: min(90%, 720px);
+	margin: 0 auto;
+	padding: 24px;
+	background-color: #f7f3ec;
+	border-radius: 12px;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+article img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 8px;
+}
+
+article h1 {
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+article p {
+	line-height: 1.6;
+}

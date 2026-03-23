@@ -1,0 +1,13 @@
+.card {
+    max-width: 900px;
+    width: min(90%, 900px);
+    margin: 0 auto;
+    padding: 16px 20px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #d9dee5;
+    border-radius: 12px;
+    font-weight: 600;
+}
