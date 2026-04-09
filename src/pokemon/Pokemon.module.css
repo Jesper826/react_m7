@@ -36,7 +36,7 @@
 }
 
 .typeWater {
-    background: #1e88e5;
+	background: #1e88e5;
 }
 
 .typeGrass {
@@ -50,6 +50,60 @@
 .typeElectric {
 	background: #f9a825;
 	color: #1f1f1f;
+}
+
+.typeNormal {
+	background: #8d8d8d;
+}
+
+.typeFlying {
+	background: #64b5f6;
+}
+
+.typePoison {
+	background: #ab47bc;
+}
+
+.typeGround {
+	background: #a1887f;
+}
+
+.typeRock {
+	background: #6d4c41;
+}
+
+.typeBug {
+	background: #7cb342;
+}
+
+.typeGhost {
+	background: #5e35b1;
+}
+
+.typeSteel {
+	background: #90a4ae;
+	color: #1f1f1f;
+}
+
+.typeIce {
+	background: #4fc3f7;
+	color: #1f1f1f;
+}
+
+.typeDragon {
+	background: #3949ab;
+}
+
+.typeDark {
+	background: #424242;
+}
+
+.typeFairy {
+	background: #ec407a;
+}
+
+.typeFighting {
+	background: #d84315;
 }
 
 .typeDefault {

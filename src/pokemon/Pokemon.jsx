@@ -7,13 +7,26 @@ const TYPE_CLASS_MAP = {
     water: styles.typeWater,
     psychic: styles.typePsychic,
     electric: styles.typeElectric,
+    normal: styles.typeNormal,
+    flying: styles.typeFlying,
+    poison: styles.typePoison,
+    ground: styles.typeGround,
+    rock: styles.typeRock,
+    bug: styles.typeBug,
+    ghost: styles.typeGhost,
+    steel: styles.typeSteel,
+    ice: styles.typeIce,
+    dragon: styles.typeDragon,
+    dark: styles.typeDark,
+    fairy: styles.typeFairy,
+    fighting: styles.typeFighting,
 };
 
 export function Pokemon() {
     const [pokemon, setPokemon] = useState(null);
 
     useEffect(() => {
-        fetch('https://pokeapi.co/api/v2/pokemon/1025')
+        fetch('https://pokeapi.co/api/v2/pokemon/1')
             .then((response) => response.json())
             .then((data) => {
                 setPokemon(data);
@@ -44,7 +57,22 @@ export function Pokemon() {
                         </span>
                     );
                 })}
+                <h3>stats</h3>
+                <ul>
+                    {pokemon.stats.map((stat) => (
+                        <li key={stat.stat.name}>
+                            <strong>{stat.stat.name}:</strong> {stat.base_stat}
+                        </li>
+                    ))}
+                </ul>
+                <h4> Moves </h4>
+                <ul>
+                    {pokemon.moves.slice(0, 5).map((move) => (
+                        <li key={move.move.name}>{move.move.name}</li>
+                    ))}
+                </ul>   
             </div>
+            
         </section>
     );
 }
