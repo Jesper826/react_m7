@@ -8,7 +8,7 @@ export function Top10(){
 		{title: "Saga", author: "Brian K Vaughan"},
 		{title: "The Girl Who Kicked the Hornet's Nest", author: "Stieg Larsson"},
 		{title: "Harry Potter and the Prisoner of Azkaban", author: "JK Rowling"},
-		{title: "Watchmen", author: "Alan Moore"}
+		{title: "Watchmen", author: "Alan Moore"}	
 	];
 
 	return(

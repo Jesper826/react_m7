@@ -1,0 +1,57 @@
+.pokemon {
+	display: grid;
+	justify-items: center;
+	gap: 12px;
+	padding: 20px;
+	border-radius: 14px;
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.name {
+	margin: 0;
+	text-transform: capitalize;
+}                                                                                                                   
+
+.types {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	justify-content: center;
+}
+
+.typeBadge {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 0.85rem;
+	padding: 4px 10px;
+	border-radius: 999px;
+	color: #ffffff;
+}
+
+.typeFire {
+	background: #f57c00;
+}
+
+.typeWater {
+    background: #1e88e5;
+}
+
+.typeGrass {
+	background: #43a047;
+}
+
+.typePsychic {
+	background: #8e24aa;
+}
+
+.typeElectric {
+	background: #f9a825;
+	color: #1f1f1f;
+}
+
+.typeDefault {
+	background: #607d8b;
+}
