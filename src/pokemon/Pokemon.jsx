@@ -26,7 +26,7 @@ export function Pokemon() {
     const [pokemon, setPokemon] = useState(null);
 
     useEffect(() => {
-        fetch('https://pokeapi.co/api/v2/pokemon/1')
+        fetch('https://pokeapi.co/api/v2/pokemon/ditto')
             .then((response) => response.json())
             .then((data) => {
                 setPokemon(data);
@@ -67,7 +67,7 @@ export function Pokemon() {
                 </ul>
                 <h4> Moves </h4>
                 <ul>
-                    {pokemon.moves.slice(0, 5).map((move) => (
+                    {pokemon.moves.slice(0, 120).map((move) => (
                         <li key={move.move.name}>{move.move.name}</li>
                     ))}
                 </ul>   
