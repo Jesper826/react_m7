@@ -21,7 +21,7 @@ const TYPE_CLASS_MAP = {
     fairy: styles.typeFairy,
     fighting: styles.typeFighting,
 };
-
+    
 export function Pokemon() {
     const [pokemon, setPokemon] = useState(null);
 
